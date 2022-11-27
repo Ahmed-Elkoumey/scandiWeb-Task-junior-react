@@ -12,10 +12,10 @@ import NavBar from './components/navComponent';
 import Pages from "./pages";
 
 export default class App extends Component {
+ 
   render() {
     return (
       <BrowserRouter>
-
         <NavBar/>
         <main>
           <Pages/>
